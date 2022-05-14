@@ -105,6 +105,34 @@ section h1 {
   font-size: 3rem;
 }
 
+form label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+form textarea {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+form button {
+  display: inline-block;
+  background: #1976d2; 
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+}
 /* Posts list */
 
 .post h2 {
@@ -137,12 +165,13 @@ p.post-content {
 
 .button {
   display: inline-block;
-  background: #d21919;
+  background: #1976d2; 
   color: white;
   border-radius: 4px;
   font-weight: 700;
   padding: 0.75rem 1.5rem;
 }
+
 
 button:disabled,
 button:disabled:hover {

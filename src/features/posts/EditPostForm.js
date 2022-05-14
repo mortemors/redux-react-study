@@ -47,7 +47,11 @@ export const EditPostForm = () => {
           onChange={onContentChanged}
         />
       </form>
-      <button type="button" onClick={onSavePostClicked}>
+      <button
+        type="button"
+        onClick={onSavePostClicked}
+        className="button"
+      >
         Save Post
       </button>
     </section>

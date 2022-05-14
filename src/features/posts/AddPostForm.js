@@ -31,8 +31,7 @@ export const AddPostForm = () => {
           onChange={onTitleChanged}
         />
         <label htmlFor="postContent">Content:</label>
-        <input
-          type="text"
+        <textarea
           id="postContent"
           name="postContent"
           value={content}
